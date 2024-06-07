@@ -1,0 +1,4 @@
+En una MinHeap, haciendo un DeleteMin , lo que se hace es ue pasa el ultimo elemento del arreglo (de la heap tambien es el ultimo)
+hacia la raiz, y a partir de ahi se va filtrando
+
+Lo mismo pasa con el MaxHeap
