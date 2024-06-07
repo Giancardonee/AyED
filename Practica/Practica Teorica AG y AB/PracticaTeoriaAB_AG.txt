@@ -1,0 +1,87 @@
+Eje1: 
+	Como tenemos el recorrido PostOrden A G F E B J I H C D, sabemos que el ultimo valor es la raiz.
+	En este caso, la raiz es D. 
+
+	Con los valores de in orden, podemos ir separando para armar el arbol de manera ordenada. 
+	El arbol quedaria asi: 
+		    D 
+	     /           \
+	   A              C
+	    \            /
+             B          H 
+	      \        / \
+	       E      J   I
+              / \
+	     G   F 
+	Por lo tanto, Los descendientes del nodo C son 3
+Eje2: 
+	Un árbol binario completo es un tipo de árbol binario en el que todos los niveles, excepto posiblemente
+	 el último, están completamente llenos y todos los nodos están lo más a la izquierda posible. 
+	En otras palabras, un árbol binario completo de altura h tiene entre 2^h y 2^(h+1) - 1 nodos.
+	
+	Un árbol binario lleno es un tipo especial de árbol binario completo en el que todos los niveles están completamente llenos.
+	Esto significa que un árbol binario lleno de altura h tiene exactamente 2^h nodos.
+
+	En resumen, la diferencia clave entre un árbol binario completo y un árbol binario lleno es que un árbol binario completo puede tener el último nivel incompleto,
+	 mientras que un árbol binario lleno tiene todos sus niveles completamente llenos.
+Eje3: 
+
+	Si el último nodo en el recorrido en postorden es el mismo que el último nodo en el recorrido inorden, 
+	esto implica que el último nodo visitado en el recorrido postorden es una hoja, ya que 
+	en el recorrido postorden las hojas se visitan antes que los nodos padres.
+
+	Por lo tanto, se puede concluir que:
+		(b) El subárbol derecho de T es vacío
+
+		Ya que si el último nodo es una hoja, su subárbol derecho (si existe) debe ser vacío.
+Eje4: Imprime: 
+	CABBAEDDFFEC
+
+Eje5:
+	Esta expresion PostFija: 
+	 6 5 * 7 3 − 4 8 + * +
+	Equivale en decimal a : 
+	(6*5) + (7-3) * (4+8)
+	  30 + (4*12) = 30 + 48 = 78
+Por lo tanto, la respuesta correcta es a) 78 
+
+Eje6: La respuesta correcta es la d). Con un recorrido in orden nos da el resultado: (((a – b) / c) + (d * e))
+
+Eje7: Apa esta me mato. Despues la consulto.
+
+Eje8: En .png
+
+eje10: La respuesta correcta es c). 
+
+Eje11: Aca me mato, dejo una resolucion de otra persona. 
+			A B C * D - E F / G / - *
+
+			A (B * C) D - E F / G / - *
+
+			A ((B * C) - D) E F / G / - *
+
+			A ((B * C) - D) (E / F) G / - *
+
+			A ((B * C) - D) ((E / F) / G) - *
+
+			A (((B * C) - D) - ((E / F) / G)) *
+
+infija :	A * (((B * C) - D) - ((E / F) / G))
+
+			*A (((B * C) - D) - ((E / F) / G)) 
+			
+			*A -((B * C) - D) (E / F) / G)
+			
+prefija:	* A - - * B C D / / E F G
+
+			* A - - (B * C) D / / E F G
+			
+			* A - ((B * C) - D)/ / E F G
+			
+			* A - ((B * C) - D)/ (E / F)G
+			
+			* A - ((B * C) - D) ((E / F) / G)
+			
+			* A (((B * C) - D) - ((E / F) / G))
+
+Eje12: El arbol D corresponde con lo pedido.  
