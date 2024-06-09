@@ -205,7 +205,7 @@ public class GeneralTree<T> {
         if (arbol.getData().equals(b)) ok= true;
         else
         {
-            // si no encontramos el dato, seguimso con la recursion.
+            // si no encontramos el dato, seguimos con la recursion.
             for (GeneralTree<T> child : arbol.getChildren())
                 if (ok == false) ok = ValidarCamino(child,b);
         }
