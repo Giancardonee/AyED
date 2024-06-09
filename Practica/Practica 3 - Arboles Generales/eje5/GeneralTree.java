@@ -176,45 +176,41 @@ public class GeneralTree<T> {
     }
  // == METODOS PARA DETERMINAR SI N ES ANCESTRO DE M 
     // EN ESTE CASO, DETERMINA SI a es ancestro de b
-    public boolean esAncestro(T a,T b){
-        if ( ( this == null) || (this.isEmpty()) || (this.isLeaf())) return false; 
-        else{
-            GeneralTree<T> nodoA = buscarNodo(a);  
-            return nodoA != null ? existeCamino(nodoA,b) : false;
-        }
+    public boolean esAncestro (T a, T b)
+    {
+        return ( (this.isEmpty() || this == null || this.isLeaf()) ? false : helperAncestro(a,b));
+    }
+        
+    private boolean helperAncestro (T a, T b)
+    {
+        GeneralTree<T> arbol = BuscarNodoN(a);
+        return arbol == null ? false : ValidarCamino(arbol, b);
     }
     
-   private boolean existeCamino (GeneralTree<T> a, T b){
-       if (a.getData().equals(b)){
-           return true;
-       }
-       else{
-           List<GeneralTree<T>> children = a.getChildren();
-           for (GeneralTree<T> child : children){
-               boolean encontro = existeCamino(child,b);
-               if (encontro) return true;
-           }
-       }
-       return false;
-   } 
-    
-  // buscamos el nodo del dato A
-    private GeneralTree<T> buscarNodo(T a) {
-    if (this.getData().equals(a)) {
-        return this;
-        } else {
-        List<GeneralTree<T>> children = this.getChildren();
-        for (GeneralTree<T> child : children) {
-            GeneralTree<T> nodoReturn = child.buscarNodo(a);
-            if (nodoReturn != null) {// Si encontramos el nodo, retornamos el resultado de inmediato
-                return nodoReturn;
-            }
+    private GeneralTree<T> BuscarNodoN(T a)
+    {
+        GeneralTree<T> arbolReturn = null;
+        if (this.getData().equals(a)) arbolReturn = this;
+        else {
+            // solo hacemos los llamados recursivos si no encontramos el nodo
+            for (GeneralTree<T> child : this.getChildren())
+                if (arbolReturn == null) arbolReturn = child.BuscarNodoN(a);
         }
+        return arbolReturn;
     }
-    return null;
-}
-
     
+    private boolean ValidarCamino (GeneralTree<T> arbol, T b)
+    {
+        boolean ok = false;
+        if (arbol.getData().equals(b)) ok= true;
+        else
+        {
+            // si no encontramos el dato, seguimso con la recursion.
+            for (GeneralTree<T> child : arbol.getChildren())
+                if (ok == false) ok = ValidarCamino(child,b);
+        }
+        return ok;
+    }    
     
  //===================================
 }
