@@ -1,4 +1,6 @@
 # Algoritmos y Estructuras de Datos
+![cansado jefe](https://github.com/Giancardonee/AyED/assets/114377978/1ea77928-9b73-4126-b53c-fa65a874d6e9)
+
 En esta materia vemos:  
  - Arboles
     - Arboles Binarios
