@@ -1,5 +1,5 @@
 # Algoritmos y Estructuras de Datos
-Aca vemos:  
+En esta materia vemos:  
  - Arboles
     - Arboles Binarios
     - Arboles Generales
