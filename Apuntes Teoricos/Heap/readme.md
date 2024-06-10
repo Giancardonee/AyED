@@ -30,6 +30,9 @@ Una heap es una estructura de datos especializada en forma de árbol binario. Ex
 
 
 # FORMAS DE CREAR UNA HEAP: 
+![diferencias heap](https://github.com/Giancardonee/AyED/assets/114377978/3ec73cad-68ef-46f5-92c7-4a72c36b0016)
+
+
 [Insertando de a un elemento](https://github.com/Giancardonee/AyED/blob/main/Apuntes%20Teoricos/Heap/Construir%20una%20Heap/Insertando%20De%20A%20Un%20Elemento/Insertando%20de%20a%20un%20elemento.png)  
   
 [Aplicando BuildHeap](https://github.com/Giancardonee/AyED/blob/main/Apuntes%20Teoricos/Heap/Construir%20una%20Heap/BuildHeap/BuildHeap.png)
