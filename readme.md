@@ -2,16 +2,17 @@
 ![cansado jefe](https://github.com/Giancardonee/AyED/assets/114377978/1ea77928-9b73-4126-b53c-fa65a874d6e9)
 
 En esta materia vemos:  
- - Arboles
+ - Arboles 
     - Arboles Binarios
     - Arboles Generales
     - Arboles de Expresion
-  - Heap
+  - Heap 
       - Crear heap (BuildHeap o Insertando de a uno)
       - Ordenar heap (HeapSort)
       - DeleteMin / DeleteMax
   - Analisis de Algoritmos
-      - Orden de ejecucion de algoritmos recursivos e iterativos
+      - Orden de ejecucion y analisi de algoritmos recursivos e iterativos
+      - Ejercicios con T(n)
   - Grafos:
       (todavia no vi nada)
 
