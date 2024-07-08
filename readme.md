@@ -14,7 +14,9 @@ En esta materia vemos:
       - Orden de ejecucion y analisi de algoritmos recursivos e iterativos
       - Ejercicios con T(n)
   - Grafos:
-      (todavia no vi nada)
+      - Grafos Dirigidos / Grafos no Dirigidos
+      - Grafos con peso / Grafos sin peso
+      - Muchos algorirmos teoricos.   
 
 # Clases Grabadas de AyED: 
 [CLASES GRABADAS 2024](https://docs.google.com/document/d/1P5y7A4O-VSq9cb6Krc7ahAxZ-AsdwCw3/edit)  
