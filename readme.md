@@ -1,5 +1,6 @@
-# Algoritmos y Estructuras de Datos
-![cansado jefe](https://github.com/Giancardonee/AyED/assets/114377978/1ea77928-9b73-4126-b53c-fa65a874d6e9)
+![image](https://github.com/Giancardonee/AyED/assets/114377978/0b53ff25-0ae4-4d8d-856f-817f9271d692)
+
+
 
 En esta materia vemos:  
  - Arboles 
