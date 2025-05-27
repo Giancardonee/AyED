@@ -22,3 +22,8 @@ En esta materia vemos:
 # Clases Grabadas de AyED: 
 [CLASES GRABADAS 2024](https://docs.google.com/document/d/1P5y7A4O-VSq9cb6Krc7ahAxZ-AsdwCw3/edit)  
 [CLASES GRABADAS 2023](https://docs.google.com/document/d/1KbsWewnOF-8gymmOr1F3S94ANO8lf0M3/edit)
+
+# Links que me ayudaron para TE, Arboles y Grafos: 
+PD: Leonardo Amet, te quiero.  
+[Primera lista de reproduccion](https://youtube.com/playlist?list=PLTc5FlIDLewNIN46MGMWmWRij5-j7Xo7p&si=DPLObnNGMDYWXdyt)  
+[Segunda lista de reproduccion](https://youtube.com/playlist?list=PLTc5FlIDLewOQcfpG4pFls23xExJt-9Hc&si=LRKmkIXzqxTZtqmV)
